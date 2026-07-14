@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Code Trainer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Bass Code Trainer</h1>
+
+    <div class="section">
+
+        <h2>문제</h2>
+
+        <h2 id="question">문제가 여기에 표시됩니다.</h2>
+
+        <button id="nextQuestion">
+            문제 출제
+        </button>
+
+    </div>
+
+    <div class="section">
+
+        <h2>코드톤 선택</h2>
+
+        <div id="noteButtons"></div>
+
+        <br><br>
+
+        <button id="submitNote">
+        코드톤 제출
+        </button>
+
+        <button id="submitFretboard">
+        지판 제출
+        </button>
+
+    </div>
+
+    <div class="section fretboardSection">
+
+    <h2>베이스 지판</h2>
+
+    <div id="fretboard">
+
+        <img
+            id="fretboardImage"
+            src="images/bass_fretboard.png"
+            alt="Bass Fretboard">
+
+    </div>
+
+</div>
+
+
+
+    <div class="section">
+
+    <h2>결과</h2>
+
+    <p id="result">
+        아직 채점 전
+    </p>
+
+</div>
+
+    <script src="music.js"></script>
+    <script src="fretboard.js"></script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
+
